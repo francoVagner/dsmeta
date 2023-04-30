@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSMeta</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="dsmeta-logo-container">
+            <img src="image 1.svg" alt="">
+            <h1>DSMeta</h1>
+            <p>
+                Vagner Franco | <a href="https://instagram.com/vagnerfranco.adv">@vagnerfranco.adv</a></p>
+        </div>
+    </header>
+
+    <main>
+        <section id="sales">
+            <div class="dsmeta-container">
+                
+                <div class="dsmeta-card">
+                    <h2>Vendas</h2>
+                    <div>
+                        <label class="form-small-title" for="data_ini">Data Inicial</label>
+                        <input class="dsmeta-form-control" type="text" name="data_ini" placeholder="01/01/2023">
+                    </div>
+                    <div>
+                        <label class="form-small-title" for="data_fim">Data Final</label>
+                        <input class="dsmeta-form-control" type="text" name="data_fim" placeholder="31/01/2023">
+                    </div>
+                </div>
+                
+                <div>
+                    <table class="dsmeta-card-table">
+                        <thead>
+                            <tr class="dsmeta-table-tr">
+                                <th class="show992">id</th>
+                                <th class="show576">Data</th>
+                                <th>Vendedor</th>
+                                <th>Total</th>
+                                <th>Notificar</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="show992">001</td>
+                                <td class="show576">01/01/2023</td>
+                                <td>Vagner</td>
+                                <td>R$ 1.000,00</td>
+                                <td>
+                                    <div class="dsmeta-btn-sms">
+                                        <div class="dsmeta-btn-sms-send">
+                                            <img src="sms-notify.svg" alt="SMS">
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
